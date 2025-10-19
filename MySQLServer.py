@@ -11,8 +11,8 @@ from mysql.connector import Error
 # Connect to MySQL server (update credentials as needed)
 try:
     connection = mysql.connector.connect (
-    user='backend',
     host="localhost",
+    user='backend',
     password="Week8_AlxDB@Into123!"
     )
     if connection.is_connected():
