@@ -1,4 +1,4 @@
 -- This script lists all tables in the currently selected database
 
-USE $1;
+USE alx_book_store;
 SHOW TABLES;
